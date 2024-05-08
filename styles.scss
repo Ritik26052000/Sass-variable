@@ -1,0 +1,23 @@
+$primary-color:red;
+$secondary-color:rgb(75, 156, 227);
+$tri-color:rgb(239, 23, 239);
+.container{
+    display: flex;
+    gap: 10px;
+}
+#square{
+    width: 250px;
+    height: 250px;
+    border: 1 solid;
+    background-color: $primary-color;
+}
+#circle{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: $secondary-color;
+}
+h1{
+    color: $tri-color;
+}

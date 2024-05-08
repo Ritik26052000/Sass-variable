@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  gap: 10px;
+}
+
+#square {
+  width: 250px;
+  height: 250px;
+  border: 1 solid;
+  background-color: red;
+}
+
+#circle {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 2px solid;
+  border-color: rgb(75, 156, 227);
+}
+
+h1 {
+  color: rgb(239, 23, 239);
+}
+
+/*# sourceMappingURL=index.css.map */
